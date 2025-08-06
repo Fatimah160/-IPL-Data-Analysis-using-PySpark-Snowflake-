@@ -3,8 +3,8 @@
 🏏 IPL Data Analysis using PySpark & Snowflake
 This project is a Big Data analytics pipeline for analyzing Indian Premier League (IPL) cricket data using Apache Spark, PySpark, and Snowflake. It performs ETL (Extract, Transform, Load) operations on cricket data stored in HDFS, processes and analyzes it using PySpark, and finally loads the cleaned and enriched data into Snowflake, a cloud data warehouse.
 
-⚙️ Technologies Used
-     - Apache Spark (PySpark)
+## ⚙️ Technologies Used
+ - Apache Spark (PySpark)
      - HDFS (Hadoop Distributed File System)
      - Snowflake (via JDBC connector)
      - Python
