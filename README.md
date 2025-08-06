@@ -21,21 +21,21 @@ This project is a Big Data analytics pipeline for analyzing Indian Premier Leagu
 ## 🏏 Cricket Data Analysis
 ### 1- Ball-by-Ball Analysis
 - Removed invalid deliveries (wides, no-balls)
-     - Calculated total & average runs per match and innings
-     - Applied window functions for running totals
-     - Flagged high-impact balls
-     - Match Analysis
-     - Extracted year, month, day from match dates
-     - Categorized win margins
-     - Analyzed correlation between toss and match wins
+- Calculated total & average runs per match and innings
+- Applied window functions for running totals
+- Flagged high-impact balls
+- Match Analysis
+- Extracted year, month, day from match dates
+- Categorized win margins
+- Analyzed correlation between toss and match wins
 
-2- Player Analysis
-    - Cleaned and standardized player names
-    - Categorized players by batting hand
-    - Labeled veteran players (age ≥ 35)
-    - Calculated years since debut
+### 2- Player Analysis
+- Cleaned and standardized player names
+- Categorized players by batting hand
+- Labeled veteran players (age ≥ 35)
+- Calculated years since debut
 
 ## ☁️ Snowflake Integration
-    - Used the Spark-Snowflake connector to write transformed DataFrames to Snowflake
-    - Configured Snowflake connection with .config("spark.jars.packages", ...) setup
-    - Enables scalable, secure, and query-optimized cloud storage for post-processing and reporting
+- Used the Spark-Snowflake connector to write transformed DataFrames to Snowflake
+- Configured Snowflake connection with .config("spark.jars.packages", ...) setup
+- Enables scalable, secure, and query-optimized cloud storage for post-processing and reporting
